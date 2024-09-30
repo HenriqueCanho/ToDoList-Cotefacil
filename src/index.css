@@ -1,0 +1,83 @@
+Body{
+  background-color: #d7e3c2;
+}
+.to-do-list{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  margin-top: 100px;
+  color: white;
+  
+}
+
+.to-do-list-header{
+  text-align: center;
+}
+
+h1{
+  font-size: 4rem;
+}
+
+button{
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.5 ease;
+}
+
+.add-button{
+  background-color: #92c149;
+  color: white;
+  margin: 2%;
+}
+
+.delete-button, .check-button, .edit-button{
+  background-color: #92c149;
+}
+.delete-button:hover{
+  background-color: rgb(196, 55, 55);
+}
+
+.check-button:hover{
+  background-color: rgb(62, 115, 199);
+}
+
+.edit-button:hover{
+  background-color: rgb(199, 62, 149);
+}
+
+input[type="text"]{
+  font-size: 1.6rem;
+  padding: 10px;
+  border: 1px solid hsla(0, 0%, 80%, 0.5);
+  border-radius: 12px;
+}
+
+li{
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 20px;
+  margin-bottom: 10px;
+  border: 2px solid hsl(0, 0%, 76%, 0.65);
+  border-radius: 8px;
+  background-color: #a1aa92;
+  display: flex;
+  align-items: center;
+}
+
+.text{
+  flex: 1;
+}
+
+.delete-button, .check-button, .edit-button{
+  padding: 8px, 12px;
+  font-size: 1.4rem;
+  margin-left: 10px;
+}
+
+.checked {
+  text-decoration: line-through;
+  color: grey;
+}
