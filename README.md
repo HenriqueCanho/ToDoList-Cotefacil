@@ -33,5 +33,5 @@ Start the server
 
 ## Authors
 
-- [henrique_canho](https://www.github.com/henrique_canho)
+- [henriqueCanho](https://www.github.com/henriqueCanho)
 
